@@ -1,15 +1,21 @@
+.container-wrap-awesome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
 .awesome-itome {
     width: 350px;
-    height: 225px;
-    display: inline-block;
-    margin-right: 32px;
-    padding-left: 40px;
+    margin: 0, 15px;
     }
     .awesome-icon {
     width: 70px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     border: 1px solid chocolate;
     border-radius: 50%;
     display: flex;
@@ -17,8 +23,7 @@
     justify-content: center;
   }
   .awesome-title{
-      padding-top: 30px;
-      padding-bottom: 20px;
+      margin-bottom: 20px;
       text-align: center;
   }
   .awesome-text {
