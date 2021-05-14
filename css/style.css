@@ -6,36 +6,36 @@
     text-decoration: none;
     box-sizing: border-box;
   }
-  .section{
+  .section-awesome{
+      padding: 100px 0;
+      }
+  .container-container-awesome{
+      margin: auto;
+      padding: 0 15px;
       max-width: 1170px;
-      height: 595px;
-      margin-left: auto;
-      margin-right: auto;
-       }
-  .container{
-      padding-top: 40px;
-      padding-bottom: 100px;
-  }
+      }
   .container-title{
+    font-size: 36px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
   }
-  .container-title-element{
-    border: 1px solid chocolate;
-    width: 60px;
-    margin-left: auto;
-    margin-right: auto;
+  .container-title-line{
+    border-top: 1px solid chocolate;
     align-content: center;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    width: 70px;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .awesome-text{
+    font-size: 14px;
+
   }
   .container-title-text{
     color: rgba(0, 0, 0, 0.431);
     text-align: center;
+    margin-bottom: 67px;
   }
   
  
