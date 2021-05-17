@@ -3,7 +3,7 @@
     max-width: 1175px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .pricing-card__item {
