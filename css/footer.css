@@ -1,0 +1,53 @@
+.social-contact{
+  padding: 34px 0;
+  background-color: #000;
+
+}
+.container-container-footer{
+    margin: auto;
+    max-width: 1175px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social-contact__item {
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  fill: rgb(131, 130, 130);
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+  margin-left: 15px;
+}
+.social-contact-icon__item:first-child{
+  margin-left: -15px;
+}
+.social-contact-icon__item:hover{
+  transform: scale(1.5, 1.5);
+}
+  .fab, .far .fa, .fas{
+   color: rgb(165, 165, 165);
+  }
+  .fa-facebook-f:hover {
+    color: #4267B2;
+    }
+  .fa-twitter:hover {
+    color: #00acee;
+    }
+  .fa-google-plus-g:hover {
+    color: #db4a39;
+    }
+  .fa-pinterest:hover {
+    color: #F0002A;
+    }
+  .fa-instagram-square:hover {
+    color: #0084b4;
+    }
+  .fa-google-wallet:hover {
+    color: #FF3333;
+    }
+  .fa-wifi:hover {
+    color: #8250a3;
+      }
