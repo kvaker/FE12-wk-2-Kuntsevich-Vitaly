@@ -1,0 +1,103 @@
+.contact-send-message_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+} 
+.container-container-contact{
+    margin: auto;
+    max-width: 1175px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.contact-send-message{
+/*   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+} 
+.contact-item {
+    width: 340px;
+    margin: 0, 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10 px;
+    }
+    .form-contact-left {
+      width: 478px;
+      height: 276px;
+      background-color: #FFFFFF;
+      border-radius: 3%;
+      /* padding: 18px 59px 44px; */
+      position: relative;
+      z-index: 1;
+       }
+       .form-contact-right {
+        width: 478px;
+        height: 276px;
+        background-color: #FFFFFF;
+        border-radius: 3%;
+        /* padding: 18px 59px 44px; */
+        position: relative;
+        z-index: 1;
+         }
+    .form-item-contact {
+      font-family: 'Open Sans', sans-serif, #BDBDBD;
+      font-size:14px;
+      font-weight: 500;
+    }
+    textarea{
+      width: 478px;
+      height: 276px;
+      resize: none;
+    }
+    input {
+      width: 100%;
+      height: 48px;
+      border-bottom: 1px solid #BDBDBD;
+      border-top: none;
+      border-left:none;
+      border-right:none;
+      display:block;
+      margin-bottom: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-size:14px;
+      font-weight: 300;    
+    }
+    .form-button-contact {
+      width: 166px;
+      justify-content: center;
+      text-align: center;
+      font-size:15px;
+      font-weight: 600;
+      background-color: chocolate;
+      border: none;
+      /* border-radius: 0 0 10px 10px; */
+      color: white;
+      padding: 11px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+/*       position: absolute;
+      bottom: -45px;
+    right: -2px;
+    z-index: 2; */
+    }
+    input[type="text"]:focus {
+      outline: none;
+    }
+    .form-send-message{
+      color: inherit;
+      outline: none!important;
+    text-decoration: none!important;
+    }
+    .form-button-contact:active{
+      content: "";
+      transform: translate(0.99, 0.99);
+      background-color: saddlebrown;
+      color: inherit;
+    }
