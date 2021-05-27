@@ -40,6 +40,10 @@
     padding-bottom: 20px;
     padding-top: 10px;
   }
+  .pricing-text:hover{
+    text-align: center;
+    color: whitesmoke;
+  }
   li .pricing-title{
     background:#333333;
     position: relative;
@@ -63,13 +67,17 @@
     position: relative;
     padding-bottom: 10px;
   }
-  li .pricing-subsubtitle__item {
+  li .pricing-text:hover {
     text-align: center;
     background:#D98943;
     position: relative;
     font-weight: 700;
-    margin-top: 3px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+  }
+  li .pricing-subsubtitle:hover {
+    text-align: center;
+    background:#D98943;
+    color: #FFFFFF;
+    position: relative;
+    font-weight: 700;
   }
   
