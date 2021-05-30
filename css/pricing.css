@@ -1,6 +1,5 @@
 .container-wrap-pricing{
-    margin: auto;
-    max-width: 1175px;
+    margin: 0 -30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,10 +7,17 @@
 }
 .pricing-card__item {
     width: 340px;
-    margin: 0, 15px;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
     }
+.pricing-card__item:hover{
+  transform: translate(0, -8px);
+}    
 .pricing-title{
-    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 600;
     padding-bottom: 12px;
     padding-top: 12px;
     text-align: center;
@@ -19,6 +25,7 @@
   }
   .pricing-subtitle{
     font-size: 35px;
+    font-weight: 600;
     color: #FFFFFF;
     text-align: center;
     margin-top: 3px;
@@ -44,36 +51,36 @@
     text-align: center;
     color: whitesmoke;
   }
-  li .pricing-title{
+  .pricing-title{
     background:#333333;
     position: relative;
     padding-bottom: 10px;
          
   }
-  li .pricing-subtitle {
+ .pricing-subtitle {
     background:#333333;
     position: relative;
     padding-bottom: 10px;
          
   }
-  li .pricing-subsubtitle {
+  .pricing-subsubtitle {
     background:#333333;
     position: relative;
     padding-bottom: 10px;
          
   }
-  li .pricing-text {
+  .pricing-text {
     background:#FFFFFF;
     position: relative;
     padding-bottom: 10px;
   }
-  li .pricing-text:hover {
+ .pricing-text:hover {
     text-align: center;
     background:#D98943;
     position: relative;
     font-weight: 700;
   }
-  li .pricing-subsubtitle:hover {
+  .pricing-subsubtitle:hover {
     text-align: center;
     background:#D98943;
     color: #FFFFFF;
