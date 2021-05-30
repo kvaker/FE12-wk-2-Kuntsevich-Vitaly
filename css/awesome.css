@@ -13,6 +13,8 @@
     .awesome-icon {
     width: 70px;
     height: 70px;
+    font-size: 35px;
+    color: chocolate;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -21,6 +23,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .fa-bolt{
+    color: chocolate;
   }
   .awesome-title{
       margin-bottom: 20px;
