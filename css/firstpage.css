@@ -17,7 +17,7 @@
   }
 .container-container-firstpage{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -25,7 +25,7 @@
   content: "";
   width: 64px;
   border-top: 1px solid whitesmoke;
-  margin: 34px auto 30px auto;
+  margin: 34px auto 30px 0;
   display: block;
 }
 .section-firstpage::after{
@@ -56,7 +56,6 @@
   height: 42px;
   color: rgba(245, 245, 245, 0);
   border: 1px solid whitesmoke;
-  margin: auto;
   text-align: left;
 }
 .form-content {
