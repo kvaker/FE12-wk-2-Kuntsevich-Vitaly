@@ -4,22 +4,18 @@
 
 }
 .container-container-footer{
-    margin: auto;
-    max-width: 1175px;
-    padding: 0 30px;
+    width: 320px;
+    font-size: 23px;
+}
+.social-contact-icon{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
+  }
 .social-contact__item {
-  display: flex;
-  flex-direction: row;
-  font-size: 23px;
-  fill: rgb(131, 130, 130);
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
-  margin-left: 15px;
 }
 .social-contact-icon__item:first-child{
   margin-left: -15px;
