@@ -26,26 +26,27 @@
   color: whitesmoke;
   text-transform: uppercase;
 }
-.header-logo__item::after{
+.header-logo_text::after{
   content: "";
   color: chocolate;
-  /* justify-content: center; */
-  
 }
 .nav-header{
   display: flex;
 }
 .ul-nav-axit{
   display: flex;
-  
 }
 .li-nav-axit{
  font-family: "Open Sans";
  font-size: 15px;
  font-weight: 500;
  color: whitesmoke;
- margin-left: 48px; 
+ margin-left: 48px;
+ border-left: 3px;
+ border-bottom: 3px;
+ border-color: chocolate; 
 }
+
 .li-nav-axit:first-child{
   margin-left: -48px;
 }
