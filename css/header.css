@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 .header-logo_text::after{
-  content: "";
+  content: "IT";
   color: chocolate;
 }
 .nav-header{
@@ -37,19 +37,31 @@
   display: flex;
 }
 .li-nav-axit{
- font-family: "Open Sans";
- font-size: 15px;
- font-weight: 500;
- color: whitesmoke;
- margin-left: 48px;
- border-left: 3px;
- border-bottom: 3px;
- border-color: chocolate; 
+  color: #FFFFFFB2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  transition: 0.3s;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  margin-left: 48px;
+  padding-left: 3px;
+  padding-bottom: 3px;
 }
-
+.li-nav-axit:hover {
+  transform: scale(1.3, 1.3);
+  color: #D98943;
+  border-left: 3px solid #D98943;
+  border-bottom: 3px solid #D98943;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
 .li-nav-axit:first-child{
   margin-left: -48px;
 }
 .li-nav-axit__item{
   
+}
+.header-list__link {
+
 }
