@@ -38,6 +38,18 @@
   top: 0;
   left: 0;
 }
+.firstpage-logo{
+  display: flex;
+  margin-bottom: 32px;
+}
+.firstpage-logo-text{
+  font-size: 60px;
+  color: whitesmoke;
+}
+.firstpage-logo-text::after{
+  content: "IT";
+  color: chocolate;
+}
 .firstpage-container-title{
   font-size: 36px;
   text-transform: uppercase;
@@ -48,15 +60,26 @@
 .firstpage-container-title-text{
   color: whitesmoke;
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 67px;
+  margin-bottom: 41px;
 }
 .container-title-button{
   width: 135px;
-  height: 42px;
-  color: rgba(245, 245, 245, 0);
+  padding: 11px 30px;
+  background-color: chocolate;
+  color: whitesmoke;
   border: 1px solid whitesmoke;
-  text-align: left;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+.tabs-button:hover{
+  transform: scale(1.1, 1.1);
+  color: rgb(116, 51, 5);
+}
+a:-webkit-any-link {
+  color: whitesmoke;
+  font-weight: 600;
 }
 .form-content {
   width: 370px;
