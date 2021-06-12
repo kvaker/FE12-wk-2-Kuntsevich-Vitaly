@@ -1,0 +1,66 @@
+.container-wrap-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.card-tabs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tabs-description{
+  max-width: 552px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabs-item {
+    width: 112px;
+    height: 112px;
+    padding: 40px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #333333;
+    font-size: 15px;
+    font-family: 800;
+    color: whitesmoke;
+    text-align: center;
+        }
+  /* .tabs-item:last-child{
+   margin-bottom: -15px;
+    } */
+  .tabs-title{
+    text-transform: uppercase;
+    margin-bottom: 58px;
+  }
+  .tabs-text {
+    text-transform: uppercase;
+    color: #86878B;
+    margin-bottom: 100px;
+  }
+  .tabs-button{
+    width: 135px;
+    padding: 11px 26px;
+    background-color: chocolate;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    margin: auto 0;
+    cursor: pointer;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+  }
+  .tabs-button:hover{
+    transform: scale(1.1, 1.1);
+    color: rgb(116, 51, 5);
+  }
+  a:-webkit-any-link {
+    color: whitesmoke;
+    font-weight: 600;
+  }
