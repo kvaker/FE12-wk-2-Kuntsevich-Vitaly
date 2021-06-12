@@ -1,22 +1,20 @@
-.contact-send-message_row{
+.contact-form_item{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
-} 
-.container-container-contact{
+  }
+ .container-container-contact{
     margin: auto;
     max-width: 1175px;
     margin-left: -15px;
     margin-right: -15px;
 }
 .contact-send-message{
-/*   display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap; */
+  flex-wrap: wrap;
 } 
 .contact-item {
     width: 340px;
@@ -35,12 +33,14 @@
       /* padding: 18px 59px 44px; */
       position: relative;
       z-index: 1;
+      margin-right: 30px;
        }
        .form-contact-right {
         width: 478px;
         height: 276px;
         background-color: #FFFFFF;
-        border-radius: 3%;
+        border: none;
+
         /* padding: 18px 59px 44px; */
         position: relative;
         z-index: 1;
@@ -52,8 +52,10 @@
     }
     textarea{
       width: 478px;
-      height: 276px;
+      height: 202px;
       resize: none;
+      border: none;
+      border-bottom: 1px solid #BDBDBD;
     }
     input {
       width: 100%;
@@ -76,16 +78,10 @@
       font-weight: 600;
       background-color: chocolate;
       border: none;
-      /* border-radius: 0 0 10px 10px; */
       color: white;
       padding: 11px 32px;
       text-decoration: none;
-      margin: 4px 2px;
       cursor: pointer;
-/*       position: absolute;
-      bottom: -45px;
-    right: -2px;
-    z-index: 2; */
     }
     input[type="text"]:focus {
       outline: none;
