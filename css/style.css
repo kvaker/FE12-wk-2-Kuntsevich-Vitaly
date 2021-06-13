@@ -127,4 +127,241 @@ h1, h2, h4{
     padding: 0 15px;
     max-width: 1170px;
   }
- 
+  @media (max-width: 767px) {
+       .nav-header {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .ul-nav-firstpage {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .container_header {
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    html,
+    body {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 1024px) {
+    /* section firstpage */
+    .container-firstpage {
+      max-width: 350px;
+      margin-right: 5px;
+    }
+    .item_tabs_description_image {
+      margin: auto;
+      padding-top: 15px;
+    }
+  }
+    /* section firstpage */
+    .container-firstpage {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      text-align: center;
+      padding-top: 54px;
+      padding-bottom: 50px;
+    }
+    .container-container-firstpage {
+      max-width: 100%;
+      margin: auto;
+    }
+    #subtitle_firstpage {
+      text-align: center;
+      margin: auto;
+    }
+    .title_firstpage::after {
+      content: '';
+      border-bottom: 1px solid #d98943;
+      width: 64px;
+      margin: auto;
+      display: block;
+      margin-bottom: 34px;
+      margin-top: 34px;
+    }
+    .firstpage-container-title-text {
+      justify-content: center;
+    }
+    /* sectoin social */
+    .container-container-social {
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    .container-social-title {
+      text-align: center;
+    }
+    /* sectoin tabs */
+    .container-container-tabs {
+      justify-content: center;
+      padding: 50px 15px 70px 15px;
+    }
+    .container-wrap-tabs {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+    }
+    .card-tabs {
+      margin-right: 5px;
+    }
+  }
+  @media (max-width: 420px) {
+    html,
+    body {
+      font-size: 10px;
+    }
+    /* sectoin tabs */
+    .card-tabs {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    .tabs-description {
+      max-width: 90%;
+    }
+  }
+
+
+  @media (max-width: 1170px) {
+    .tabs-images-right {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1059px) {
+    .tabs-item {
+        padding: 50px 0;
+        /* min-width: 400px; */
+    }
+
+    .container-wrap-tabs {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tabs-button {
+        margin: 20px 0 0;
+        min-width: 0;
+    }
+    
+    .tabs-item {
+        height: 150px;
+        display: block;
+    }
+
+    .tabs-item-a,
+    .tabs-item-b {
+        margin-right: 10px;
+    }
+
+    .tabs-title,
+    .tabs-discription {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .tabs-button {
+        margin: auto;
+    }
+
+    .tabs-images-right {
+        margin: 0;
+    }
+    
+    .card-title,
+    .tabs-discription {
+        text-align: center;
+    }
+}
+
+@media (max-width: 944px) {
+    /* html {
+        font-size: 14px;
+    } */
+
+    .page {
+        min-width: 413px;
+    }
+
+    .container-firstpage,
+    .container-container-header {
+        /* min-width: 400px; */
+        max-width: 500px;
+    }
+
+    .container-firstpage {
+        justify-content: center;
+    }
+    
+    .container-container-firstpage {
+        max-width: none;
+        text-align: center;
+    }
+
+    .firstpage-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstpage-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstpage-title-text {
+        text-align: center;
+    }
+
+    .firstpage-dicription::before {
+        margin: auto;
+        margin-bottom: 32px;
+    }
+
+    .button-firstpage {
+        margin: auto;
+        margin-bottom: 39px;
+    }
+
+    .header-container {
+        justify-content: center;
+    }
+
+    .header-menu {
+        justify-content: center;
+    }
+
+    .social-content-title-icons {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social-icons {
+        margin: 20px 0 0 0;
+        width: 80%;
+
+    }
+
+    .social-content-title {
+        max-width: 500px;
+    }
+
+    .social-title,
+    .social-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    /* html {
+        font-size: 16px;
+    } */
+
+    .contact-item-row {
+        justify-content: center;
+    }
+}
