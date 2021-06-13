@@ -357,9 +357,9 @@ h1, h2, h4{
 }
 
 @media (max-width: 460px) {
-    /* html {
+    html {
         font-size: 16px;
-    } */
+    }
 
     .contact-item-row {
         justify-content: center;
