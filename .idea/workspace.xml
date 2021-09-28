@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e11347c6-133b-48b8-866b-cba0c377aa6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FE12-wk-2-Kuntsevich-Vitaly.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/explore-slider/after.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/explore-slider/before.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/galery/galery9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/parallax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/welcome-slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/welcome-slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/welcome-slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/welcome-slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/welcome-slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/poster0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/poster1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/poster2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/poster3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/poster4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/video2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/video3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/video4.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/firstpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/firstpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yl8wEfFW5Ibv9igrRpT1Ffjo9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Works students/FE12-JS-React-Roman-Peshko" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e11347c6-133b-48b8-866b-cba0c377aa6f" name="Default Changelist" comment="" />
+      <created>1632815050273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632815050273</updated>
+      <workItem from="1632815051331" duration="8945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1632818660073">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1632818660073" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1632820378820">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1632820378820" />
+  </component>
+</project>

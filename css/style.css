@@ -21,11 +21,11 @@
     fill:inherit;
     }
   html{
-    font-family: 'Raleway', 'Open Sans', sans-serif;
+    font-family: 'Roboto', 'Forum', sans-serif;
     font-size: 14px;
 }
 h1, h2, h4{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Forum', sans-serif;
 }
 .section-tabs{
   padding: 100px 0;
@@ -45,17 +45,17 @@ h1, h2, h4{
             .container-container-footer{
               margin: auto;
               padding: 0 15px;
-              max-width: 1170px;
+              max-width: 1440px;
             }
   .container-container-header{
     margin: auto;
     padding: 0 15px;
-    max-width: 1170px;
+    max-width: 1440px;
   }
   .container-container-firstpage{
     margin: auto;
     padding: 0 15px;
-    max-width: 1170px;
+    max-width: 1440px;
     position: relative;
     z-index: 1;
       }   
@@ -67,34 +67,34 @@ h1, h2, h4{
   .container-container-social{
     margin: auto;
     padding: 0 15px;
-    max-width: 1170px;
+    max-width: 1440px;
   }
   .container-container-tabs{
     margin: auto;
     padding: 0 15px;
-    max-width: 1170px;
+    max-width: 1440px;
     }
   .container-container-awesome{
       margin: auto;
       padding: 0 15px;
-      max-width: 1170px;
+      max-width: 1440px;
       }
   .container-container-customers{
         margin: auto;
         padding: 0 15px;
-        max-width: 1170px;
+        max-width: 1440px;
         }
   .container-container-axure{
         margin: auto;
         padding: 0 15px;
-        max-width: 1170px;
+        max-width: 1440px;
         position: relative;
         z-index: 1;
           }
           .container-container-contact{
             margin: auto;
             padding: 0 15px;
-            max-width: 1170px;
+            max-width: 1440px;
             }
   .container-title{
     font-size: 36px;
@@ -125,8 +125,9 @@ h1, h2, h4{
 .container-container-pricing{
     margin: auto;
     padding: 0 15px;
-    max-width: 1170px;
+    max-width: 1440px;
   }
+/*
   @media (max-width: 767px) {
        .nav-header {
       width: 100%;
@@ -147,7 +148,7 @@ h1, h2, h4{
     }
   }
   @media (max-width: 1024px) {
-    /* section firstpage */
+    !* section firstpage *!
     .container-firstpage {
       max-width: 350px;
       margin-right: 5px;
@@ -157,7 +158,7 @@ h1, h2, h4{
       padding-top: 15px;
     }
   }
-    /* section firstpage */
+    !* section firstpage *!
     .container-firstpage {
       display: flex;
       flex-flow: row wrap;
@@ -186,7 +187,7 @@ h1, h2, h4{
     .firstpage-container-title-text {
       justify-content: center;
     }
-    /* sectoin social */
+    !* sectoin social *!
     .container-container-social {
       flex-flow: wrap;
       justify-content: center;
@@ -194,7 +195,7 @@ h1, h2, h4{
     .container-social-title {
       text-align: center;
     }
-    /* sectoin tabs */
+    !* sectoin tabs *!
     .container-container-tabs {
       justify-content: center;
       padding: 50px 15px 70px 15px;
@@ -213,7 +214,7 @@ h1, h2, h4{
     body {
       font-size: 10px;
     }
-    /* sectoin tabs */
+    !* sectoin tabs *!
     .card-tabs {
       display: flex;
       flex-flow: row wrap;
@@ -234,7 +235,7 @@ h1, h2, h4{
 @media (max-width: 1059px) {
     .tabs-item {
         padding: 50px 0;
-        /* min-width: 400px; */
+        !* min-width: 400px; *!
     }
 
     .container-wrap-tabs {
@@ -248,7 +249,7 @@ h1, h2, h4{
         margin: 20px 0 0;
         min-width: 0;
     }
-    
+
     .tabs-item {
         height: 150px;
         display: block;
@@ -272,7 +273,7 @@ h1, h2, h4{
     .tabs-images-right {
         margin: 0;
     }
-    
+
     .card-title,
     .tabs-discription {
         text-align: center;
@@ -280,9 +281,9 @@ h1, h2, h4{
 }
 
 @media (max-width: 944px) {
-    /* html {
+    !* html {
         font-size: 14px;
-    } */
+    } *!
 
     .page {
         min-width: 413px;
@@ -290,14 +291,14 @@ h1, h2, h4{
 
     .container-firstpage,
     .container-container-header {
-        /* min-width: 400px; */
+        !* min-width: 400px; *!
         max-width: 500px;
     }
 
     .container-firstpage {
         justify-content: center;
     }
-    
+
     .container-container-firstpage {
         max-width: none;
         text-align: center;
@@ -364,4 +365,4 @@ h1, h2, h4{
     .container-container-footer {
         justify-content: center;
     }
-}
+}*/

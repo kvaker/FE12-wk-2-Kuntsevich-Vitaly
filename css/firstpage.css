@@ -11,7 +11,7 @@
 .container-firstpage{
   margin: auto;
   padding: 0 15px;
-  max-width: 1170px;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
   }
@@ -20,13 +20,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-.firstpage-container-title::after {
-  content: "";
-  width: 64px;
-  border-top: 1px solid whitesmoke;
-  margin: 34px auto 30px 0;
-  display: block;
 }
 .section-firstpage::after{
   content: "";
@@ -38,40 +31,39 @@
   top: 0;
   left: 0;
 }
-.firstpage-logo{
-  display: flex;
-  margin-bottom: 32px;
-}
-.firstpage-logo-text{
-  font-size: 60px;
-  color: whitesmoke;
-}
-.firstpage-logo-text::after{
-  content: "IT";
-  color: chocolate;
-}
 .firstpage-container-title{
-  font-size: 36px;
+  font-size: 80px;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 20px;
-  color: whitesmoke;
+  color: #FFFFFF;
 }
 .firstpage-container-title-text{
-  color: whitesmoke;
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #FFFFFF;
   text-align: left;
-  margin-bottom: 41px;
-}
+  margin-bottom: 80px;
+ }
 .container-title-button{
-  width: 135px;
-  padding: 11px 30px;
-  background-color: chocolate;
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
+  width: 360px;
+  padding: 15px 64px;
+  background-color: #710707;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+}
+.container-title-button__text{
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-align: center;
 }
 .tabs-button:hover{
   transform: scale(1.1, 1.1);
@@ -110,7 +102,7 @@ a:-webkit-any-link {
   color: chocolate;
 }
 .form-item {
-  font-family: 'Open Sans', sans-serif, #BDBDBD;
+  font-family: 'Roboto', sans-serif, #BDBDBD;
   font-size:14px;
   font-weight: 500;
 }
